@@ -1,0 +1,42 @@
+.cont_user {
+    gap: 30px;
+}
+
+.cont_user button {
+    border: 1px solid chocolate;
+    padding: 15px 80px;
+    color: chocolate;
+    cursor: pointer;
+}
+
+.crud_wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.crud_card {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.crud_card img {
+    width: 200px;
+    height: 200px;
+}
+
+.crud_card .btn_delete {
+    padding: 5px 10px;
+    border: 1px solid red;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px) {
+    .crud_wrap {
+        display: block;
+    }
+}

@@ -1,0 +1,29 @@
+.product_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.product_div div {
+    width: 50%;
+}
+
+.product_div div h2 {
+    font-size: 50px;
+}
+
+.product_div img {
+    width: 500px;
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    .product_div {
+        display: block;
+    }
+}
